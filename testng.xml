@@ -5,10 +5,10 @@
   <classes>
   <class name="Runner_Files.Login_positive_scenarios_runner"></class>
   </classes>
-  </test> <!-- Test -->
- <test name="Test2">
+  </test>
+ <!--<test name="Test2">
    <classes>
   <class name="Runner_Files.Services_positive_scenarios_runner"></class>
   </classes>
-  </test> <!-- Test -->
+  </test> -->
    </suite><!-- suite -->

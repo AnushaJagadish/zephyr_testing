@@ -94,6 +94,5 @@ public class Services_positive_scenario extends Generic_function {
 			takeScreenShot("servicepage_positive_tc_003");
 		}
 		browser_close();
-		new Test().parse_report();
 	}
 }

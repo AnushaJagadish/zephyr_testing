@@ -3,7 +3,7 @@ package Runner_Files;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
-		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","json:Reports/Report.json"},
 		features = "src\\main\\java\\Login_positive_scenarios\\Login_positive_scenarios.feature",
 		glue= {"Login_positive_scenarios"},
 		monochrome = true,publish = true)

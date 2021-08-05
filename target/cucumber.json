@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-05T06:59:30.141Z",
+        "line": 4,
+        "name": "Validate that the \u0027Phone number\u0027 field is prefixed with +1 country code",
+        "description": "",
+        "id": "validate-login-positive-functionality;validate-that-the--phone-number--field-is-prefixed-with-+1-country-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15586643000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the URL",
+            "match": {
+              "location": "Login_positive_scenarios.Login_positive_scenarios.browser_launching()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344148700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on \u0027Login\u0027 button",
+            "match": {
+              "location": "Login_positive_scenarios.Login_positive_scenarios.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238986100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check  the  \u0027Phone number\u0027 field is prefixed with country code",
+            "match": {
+              "location": "Login_positive_scenarios.Login_positive_scenarios.login_positive_tc_001()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate login positive functionality",
+    "description": "",
+    "id": "validate-login-positive-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Login_positive_scenarios/Login_positive_scenarios.feature",
+    "tags": []
+  }
+]
