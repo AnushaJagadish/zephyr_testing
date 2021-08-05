@@ -1,6 +1,8 @@
 package Services_positive_scenario;
 
 import java.io.IOException;
+
+import Reusable_Functions.Test;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import Reusable_Functions.Generic_function;
@@ -84,13 +86,14 @@ public class Services_positive_scenario extends Generic_function {
 			value = driver.findElement(By.xpath(OR_reader( "logout"))).isDisplayed();
 			Assert.assertEquals(true,value);
 			System.out.println("services positive");
+
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
 			takeScreenShot("servicepage_positive_tc_003");
 		}
-
 		browser_close();
+		new Test().parse_report();
 	}
 }
